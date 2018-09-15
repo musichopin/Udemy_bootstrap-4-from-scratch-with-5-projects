@@ -1,0 +1,65 @@
+$primary: #3292a6; /*teal color*/
+$primary-overlay:rgba(50,146,166,0.8);
+
+body{
+  margin-top:105px; /*pushes the body below the navbar*/
+}
+
+.navbar{
+  box-shadow:3px 3px 5px $primary; /*h-offset, v-offset, blur, color*/
+  opacity:0.9;
+  background:#fff;
+
+  .nav-item{
+    font-size:1.4rem;/*resizes to root element, ie html, which's 16 px by def*/
+    padding-right:20px;
+  }
+}
+
+#showcase{
+  position:relative; /*since we gave margin-top to body el, within #showcase we 
+  need to position our .primary-overlay absolutely*/
+  background:url('../img/mountains.jpg');
+  min-height:600px;
+
+  .primary-overlay{
+    background:$primary-overlay;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+  }
+}
+
+.info-header{
+  width:50%;
+  margin:0 auto; /*puts on middle*/
+  border-bottom:1px #ddd solid;
+}
+
+#authors{
+  img{
+    margin-top:-50px;
+  }
+
+  .fa{
+    font-size:25px;
+  }
+
+  .card:hover{
+    background:$primary;
+    color:#fff;
+
+    .fa{
+      color:#fff;
+    }
+  }
+}
+
+/*
+#mlogo {
+  width: 50%;
+  margin:0 auto;
+}
+*/

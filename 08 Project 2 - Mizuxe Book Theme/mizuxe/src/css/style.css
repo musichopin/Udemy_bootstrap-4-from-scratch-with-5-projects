@@ -1,0 +1,53 @@
+/*teal color*/
+body {
+  margin-top: 105px;
+  /*pushes the body below the navbar*/ }
+
+.navbar {
+  box-shadow: 3px 3px 5px #3292a6;
+  /*h-offset, v-offset, blur, color*/
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    /*resizes to root element, ie html, which's 16 px by def*/
+    padding-right: 20px; }
+
+#showcase {
+  position: relative;
+  /*since we gave margin-top to body el, within #showcase we 
+  need to position our .primary-overlay absolutely*/
+  background: url("../img/mountains.jpg");
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    background: rgba(50, 146, 166, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.info-header {
+  width: 50%;
+  margin: 0 auto;
+  /*puts on middle*/
+  border-bottom: 1px #ddd solid; }
+
+#authors img {
+  margin-top: -50px; }
+
+#authors .fa {
+  font-size: 25px; }
+
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff; }
+  #authors .card:hover .fa {
+    color: #fff; }
+
+/*
+#mlogo {
+  width: 50%;
+  margin:0 auto;
+}
+*/

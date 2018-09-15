@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LoopLAB Theme</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="home"> <!-- id is used for navigation -->
+
+<!--NAVBAR: expands above small screen. fixed on top. navbar-dark gives light text-->  
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container"> <!-- makes layout tighter -->
+      <a href="index.html" class="navbar-brand">LoopLAB</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"> <!-- data-target matches with below id -->
+        <span class="navbar-toggler-icon"></span>
+      </button> <!-- appears when navbar collapses in extra-small size -->
+      <div class="collapse navbar-collapse" id="navbarCollapse"><!--4 collapse-->
+        <ul class="navbar-nav ml-auto"><!--ml-auto pushes button to end-->
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a><!--href matches body id-->
+          </li>
+          <li class="nav-item">
+            <a href="#explore-head-section" class="nav-link">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a href="#create-head-section" class="nav-link">Create</a>
+          </li>
+          <li class="nav-item">
+            <a href="#share-head-section" class="nav-link">Share</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME SECTION -->
+  <header id="home-section"> <!-- adds bg img via custom styling -->
+    <div class="dark-overlay"> <!-- changes overlay via custom styling -->
+      <div class="home-inner"> <!-- gives padding-top via custom styling -->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 d-none d-lg-block"><!--displays above lg scr-->
+              <h1 class="display-4">Build <strong>social profiles</strong> and gain revenue & <strong>profits</strong></h1>
+              <div class="d-flex flex-row"> <!--checkbox and text beside it-->
+                <div class="p-4 align-self-start"><!--align-self-start useles?-->
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="p-4 align-self-end"><!--align-self-end useles?-->
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, architecto, quaerat. Quis cum eius itaque ipsa magni quam, illo molestias
+                </div>
+              </div>
+
+              <div class="d-flex flex-row">
+                <div class="p-4 align-self-start">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="p-4 align-self-end">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, architecto, quaerat. Quis cum eius itaque ipsa magni quam, illo molestias
+                </div>
+              </div>
+
+              <div class="d-flex flex-row">
+                <div class="p-4 align-self-start">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="p-4 align-self-end">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, architecto, quaerat. Quis cum eius itaque ipsa magni quam, illo molestias
+                </div>
+              </div>
+            </div><!-- 1st grid part -->
+            <div class="col-lg-4"><!--2nd grid part: form section on right-->
+              <div class="card bg-primary text-center card-form">
+                <div class="card-body"><!-- gives padding -->
+                  <h3>Sign Up Today</h3>
+                  <p>Please fill out this form to register</p>
+                  <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control form-control-lg" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control form-control-lg" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control form-control-lg" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control form-control-lg" placeholder="Confirm Password">
+                    </div>
+                    <input type="submit" class="btn btn-outline-light btn-block">
+                  </form>
+                </div> <!-- card-body -->
+              </div> <!-- card -->
+            </div> <!-- 2nd grid part -->
+          </div> <!-- row -->
+        </div> <!-- container -->
+      </div> <!-- home-inner -->
+    </div> <!-- dark-overlay -->
+  </header>
+
+  <!-- EXPLORE HEAD -->
+  <section id="explore-head-section"> <!-- id is used for nav -->
+    <div class="container">
+      <div class="row">
+        <div class="col text-center"> <!-- 1 col row -->
+          <div class="py-5"> <!-- padding on top & bottom -->
+            <h1 class="display-4">Explore</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sed, magni, veritatis aliquam sequi eveniet? Rerum quia accusantium alias provident perferendis</p>
+            <a href="#" class="btn btn-outline-secondary">Find Out More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPLORE SECTION -->
+  <section id="explore-section" class="bg-light text-muted py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/explore-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle"><!--img-fluid means 100% max-width-->
+        </div>
+        <div class="col-md-6">
+          <h3>Explore & Connect</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus provident sed mollitia, ab sint fuga quibusdam. At repellendus architecto nobis nesciunt suscipit, nisi ipsam quaerat?</p>
+          <div class="d-flex flex-row">
+            <div class="p-4 align-self-start"><!--align-self-start useles?-->
+              <i class="fa fa-check"></i>
+            </div>
+            <div class="p-4 align-self-end"><!--align-self-end useles?-->
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, architecto, quaerat. Quis cum eius itaque ipsa magni quam, illo molestias
+            </div>
+          </div>
+
+          <div class="d-flex flex-row">
+            <div class="p-4 align-self-start">
+              <i class="fa fa-check"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, architecto, quaerat. Quis cum eius itaque ipsa magni quam, illo molestias
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREATE HEAD -->
+  <section id="create-head-section" class="bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <div class="py-5">
+            <h1 class="display-4">Create</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sed, magni, veritatis aliquam sequi eveniet? Rerum quia accusantium alias provident perferendis</p>
+            <a href="#" class="btn btn-outline-light">Find Out More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREATE SECTION -->
+  <section id="create-section" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Create your passion</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus provident sed mollitia, ab sint fuga quibusdam. At repellendus architecto nobis nesciunt suscipit, nisi ipsam quaerat?</p>
+          <div class="d-flex flex-row">
+            <div class="p-4 align-self-start">
+              <i class="fa fa-check"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, architecto, quaerat. Quis cum eius itaque ipsa magni quam, illo molestias
+            </div>
+          </div>
+
+          <div class="d-flex flex-row">
+            <div class="p-4 align-self-start">
+              <i class="fa fa-check"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, architecto, quaerat. Quis cum eius itaque ipsa magni quam, illo molestias
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="img/create-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SHARE HEAD -->
+  <section id="share-head-section" class="bg-info">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <div class="py-5">
+            <h1 class="display-4">Share</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sed, magni, veritatis aliquam sequi eveniet? Rerum quia accusantium alias provident perferendis</p>
+            <a href="#" class="btn btn-outline-light">Find Out More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHARE SECTION -->
+  <section id="share-section" class="py-5 bg-light text-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/share-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+        </div>
+        <div class="col-md-6">
+          <h3>Share what you create</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus provident sed mollitia, ab sint fuga quibusdam. At repellendus architecto nobis nesciunt suscipit, nisi ipsam quaerat?</p>
+          <div class="d-flex flex-row">
+            <div class="p-4 align-self-start">
+              <i class="fa fa-check"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, architecto, quaerat. Quis cum eius itaque ipsa magni quam, illo molestias
+            </div>
+          </div>
+
+          <div class="d-flex flex-row">
+            <div class="p-4 align-self-start">
+              <i class="fa fa-check"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, architecto, quaerat. Quis cum eius itaque ipsa magni quam, illo molestias
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN FOOTER -->
+  <footer id="main-footer" class="bg-dark"> <!-- id useless -->
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <div class="py-4">
+            <h1 class="h3">LoopLAB</h1>
+            <p>Copyright &copy; 2017</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+<!-- below contactModal id matches above #contactModal data-target -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CONTACT MODAL -->
+  <div class="modal fade text-dark" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact Us</h5>
+          <button class="close" data-dismiss="modal"><span>&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <form action="#">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" class="form-control"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary btn-block">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
