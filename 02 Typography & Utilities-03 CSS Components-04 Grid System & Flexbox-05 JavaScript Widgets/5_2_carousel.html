@@ -200,13 +200,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   <script>
-    $('.carousel').carousel({
-      interval:3000, // default is 5000
+    $('.carousel').carousel({ //optional
+      interval:3000, // default is 5000; 0 stops it
       keyboard: true, // we can direct w/ keyboard directions
       pause:'hover', // pauses when being hovered
       wrap:true // when slide comes to end, it wont stop
     });
 
+  // Carousel Events (optional)
 /*1st slide then slid fires off*/    
     $('#slider4').on('slide.bs.carousel', function(){
       console.log('slide');

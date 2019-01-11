@@ -15,8 +15,6 @@ body {
 
 #showcase {
   position: relative;
-  /*since we gave margin-top to body el, within #showcase we 
-  need to position our .primary-overlay absolutely*/
   background: url("../img/mountains.jpg");
   min-height: 600px; }
   #showcase .primary-overlay {

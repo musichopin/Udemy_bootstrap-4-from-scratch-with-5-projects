@@ -11,17 +11,19 @@
 </head>
 <body id="home"> <!-- id is used for navigation -->
 
-<!--NAVBAR: expands above small screen. fixed on top. navbar-dark gives light text-->  
+<!--expands above small screen. fixed on top. navbar-dark gives light text-->  
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
     <div class="container"> <!-- makes layout tighter -->
       <a href="index.html" class="navbar-brand">LoopLAB</a>
+
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"> <!-- data-target matches with below id -->
         <span class="navbar-toggler-icon"></span>
       </button> <!-- appears when navbar collapses in extra-small size -->
+
       <div class="collapse navbar-collapse" id="navbarCollapse"><!--4 collapse-->
-        <ul class="navbar-nav ml-auto"><!--ml-auto pushes button to end-->
-          <li class="nav-item">
-            <a href="#home" class="nav-link">Home</a><!--href matches body id-->
+        <ul class="navbar-nav ml-auto"><!--ml-auto pushes button 2 right-->
+          <li class="nav-item"><!--alt:href="#home-section"-->
+            <a href="#home" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
             <a href="#explore-head-section" class="nav-link">Explore</a>
@@ -46,25 +48,23 @@
             <div class="col-lg-8 d-none d-lg-block"><!--displays above lg scr-->
               <h1 class="display-4">Build <strong>social profiles</strong> and gain revenue & <strong>profits</strong></h1>
               <div class="d-flex flex-row"> <!--checkbox and text beside it-->
-                <div class="p-4 align-self-start"><!--align-self-start useles?-->
+                <div class="p-4 align-self-center">
                   <i class="fa fa-check"></i>
                 </div>
                 <div class="p-4 align-self-end"><!--align-self-end useles?-->
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, architecto, quaerat. Quis cum eius itaque ipsa magni quam, illo molestias
                 </div>
               </div>
-
               <div class="d-flex flex-row">
-                <div class="p-4 align-self-start">
+                <div class="p-4 align-self-center">
                   <i class="fa fa-check"></i>
                 </div>
                 <div class="p-4 align-self-end">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, architecto, quaerat. Quis cum eius itaque ipsa magni quam, illo molestias
                 </div>
               </div>
-
               <div class="d-flex flex-row">
-                <div class="p-4 align-self-start">
+                <div class="p-4 align-self-center">
                   <i class="fa fa-check"></i>
                 </div>
                 <div class="p-4 align-self-end">
@@ -72,6 +72,7 @@
                 </div>
               </div>
             </div><!-- 1st grid part -->
+
             <div class="col-lg-4"><!--2nd grid part: form section on right-->
               <div class="card bg-primary text-center card-form">
                 <div class="card-body"><!-- gives padding -->
@@ -118,6 +119,7 @@
 
   <!-- EXPLORE SECTION -->
   <section id="explore-section" class="bg-light text-muted py-5">
+<!--py-5 yerine my-5 denseydi beyaz renk yerine default olan siyah olurdu-->
     <div class="container">
       <div class="row">
         <div class="col-md-6">

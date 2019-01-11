@@ -204,12 +204,12 @@
         <div class="col-lg-3 col-md-6">
           <div class="card">
             <div class="card-body">
-              <img src="img/person1.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3"><!--w-50 is 50% width-->
+              <img src="img/person1.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3"><!--img-fluid sets max width & useles bc of w-50?-->
               <h3>Susan Williams</h3>
               <h5 class="text-muted">Lead Writer</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae molestiae alias expedita quae esse ut.</p>
               <div class="d-flex flex-row justify-content-center">
-                <div class="p-4">
+                <div class="p-4"><!--justify-content-center matters-->
                   <a href="#"><i class="fa fa-facebook"></i></a>
                 </div>
                 <div class="p-4">
@@ -318,9 +318,11 @@
             <input type="submit" value="Submit" class="btn btn-primary btn-block btn-lg">
           </form>
         </div>
-        <div class="col-6 col-lg-3 m-auto"><!-- vers1 -->
-<!-- m-auto centers @every axis unlike align-self-center-->
-          <img src="img/mlogo.png" alt="" class="img-fluid">
+        <div class="col-6 col-lg-3 m-auto">
+<!--col-6 genisligi degistirdigi icin m-auto kullanılabilir-->
+<!--m-auto centers @every axis unlike align-self-center-->
+<!--aşadaki d-block m-auto classları yerne yukarıya text-center deneblir-->
+          <img src="img/mlogo.png" alt="" class="w-75 d-block m-auto">
         </div>
       </div>
     </div>
@@ -330,7 +332,7 @@
   <footer id="main-footer" class="py-5 bg-primary text-white">
     <div class="container">
       <div class="row text-center">
-        <div class="col-md-6 ml-auto"><!--ml-auto moves col 2 right above medium screen-->
+        <div class="col-md-6 ml-auto"><!--ml-auto moves col 2 right above medium screen since col-md changes width above medium size-->
           <p class="lead">Copyright &copy; 2017</p>
         </div>
       </div>
@@ -338,18 +340,18 @@
   </footer>
 
   <script src="js/jquery.min.js"></script>
+  3
+
+
+
+
+
+
+
+
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/navbar-fixed.js"></script>
 <!--navbar-fixed.js downloaded from jqueryscript.net to provide smooth scrooll-->
 </body>
 </html>
-
-<!-- vers1:
-// align-self-center centers vertically along column 
-      <div class="col-lg-3 align-self-center">
-        <div id="mlogo">
-          <img src="img/mlogo.png" alt="" class="img-fluid">
-        </div>
-      </div>  
- -->

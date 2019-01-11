@@ -12,12 +12,11 @@ body {
 
 #home-section {
   background: url("../img/home.jpg") no-repeat;
-  background-size: cover;
+  background-size: cover;/*puts the img proportionally 2 screen size*/
   background-attachment: fixed;
-  min-height: 700px;
-  /*height denmeli?*/ }
+  min-height: 700px; /*height denebilir*/ }
+
   #home-section .dark-overlay {
-    /*same as #home-section .dark-overlay if didnt nest*/
     background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 0;

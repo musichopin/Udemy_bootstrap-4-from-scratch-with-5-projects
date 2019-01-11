@@ -93,7 +93,9 @@
     <!--#####################START HERE######################-->
 <!-- row-hl and item-hl are custom classes we gave to style boxes -->    
 <!-- d-flex is display flex -->
-    <!-- FLEX ROW & FLEX ITEMS: flex items are columns -->
+    <!-- ROW = FLEX CONTAINER | flex items = columns -->
+    <!-- flex-row is default -->
+    <!-- HORIZONTAL ALIGNMENT of FLEX CONTAINERS -->        
     <div class="d-flex flex-row row-hl">
       <div class="p-4 item-hl">Default Flex Item</div>
       <div class="p-4 item-hl">Default Flex Item</div>
@@ -105,6 +107,7 @@
       <div class="p-4 item-hl">Reverse Flex Item3</div>
     </div>
     <!-- JUSTIFY CONTENT -->
+    <!-- justify-content-start is default -->
     <div class="d-flex flex-row justify-content-start row-hl">
       <div class="p-4 item-hl">Left Aligned Flex Item (default)</div>
       <div class="p-4 item-hl">Left Aligned Flex Item</div>
@@ -133,7 +136,7 @@
 
     <br><br>
 
-    <!-- FLEX CONTAINER / FLEX COLUMN: flex items become rows -->
+    <!-- FLEX CONTAINER = COLUMN | flex items = rows -->
     <div class="d-flex flex-column row-hl">
       <div class="p-4 item-hl">Horizontal Flex Item</div>
       <div class="p-4 item-hl">Horizontal Flex Item</div>
@@ -150,7 +153,8 @@
 
     <br><br>
 
-    <!-- VERTICAL ALIGN ROWs -->
+    <!-- ROW = FLEX CONTAINER | flex items = columns  -->
+    <!-- VERTICAL ALIGNMENT OF FLEX CONTAINERS -->
     <div class="d-flex flex-row align-items-start row-hl">
       <div class="p-4 item-hl">Top Aligned Flex Item</div>
       <div class="p-4 item-hl">Top Aligned Flex Item</div>
@@ -180,6 +184,7 @@
     <br><br>
 
     <!-- ALIGN SELF -->
+    <!-- VERTICAL ALIGNMENT OF FLEX ITEMS -->
     <div class="d-flex flex-row row-hl">
       <div class="p-4 align-self-start item-hl">align-self-start</div>
       <div class="p-4 align-self-center item-hl">align-self-center</div>

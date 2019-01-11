@@ -88,10 +88,11 @@
     <!--####################START HERE####################-->
   <div class="container">
     <!-- RESPONSIVE GRID -->
-<!--the grid shud equal to 12 columns in total (of each col in 1 row) at each screen size. if we only configure small screens and above, screen sizes under small automatically makes each column 12 col divs which wud stack them on top of each other (as if they're not in same row)-->
+<!--the grid shud equal to 12 columns in total (of each col in 1 row) at each screen size. if we only configure small screens and above, extra small screen size automatically makes each column 12 col div which wud stack them on top of each other (as if they're not in same row)-->
 <!-- col-sm-3 means for screen sizes small and above it wud span 3 col. but also using col-md-4 next to it, wud override the former for medium sizes and above-->
 <!-- border:1px solid #333 style added just to see the columns better -->
 <!-- row-hl class is custom class we gave to style the rows -->
+<!-- col-sm-6 yerine col-6 veya col denseydi xs screende de yan yana olacaktı 2 col-->
     <div class="row row-hl"> <!-- every row has a div w/ row class -->
       <div class="col-sm-6 col-md-8 col-lg-9 col-xl-10" style="border:1px solid #333">
         <ul>
@@ -152,7 +153,7 @@
 
     <br><br>
 
-    <!-- EQUAL WIDTH STACKED: stacked at extra small size and below -->
+    <!-- EQUAL WIDTH STACKED: stacked at extra small screen size -->
     <div class="row row-hl">
       <div class="col-sm" style="border:1px solid #333">Equal Width Stack</div>
       <div class="col-sm" style="border:1px solid #333">Equal Width Stack</div>
